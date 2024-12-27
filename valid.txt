@@ -1,0 +1,25 @@
+Ultralytics 8.3.25 🚀 Python-3.11.10 torch-2.5.1+cu124 CUDA:0 (NVIDIA A100-SXM4-80GB, 81156MiB)
+YOLO11m-cls summary (fused): 138 layers, 10,344,194 parameters, 0 gradients, 39.3 GFLOPs
+[34m[1mtrain:[0m /home/datpham/datpham/ACNE11-Classification/datasets/train... found 3525 images in 12 classes: ERROR ❌️ requires 2 classes, not 12
+[34m[1mval:[0m /home/datpham/datpham/ACNE11-Classification/datasets/val... found 235 images in 12 classes: ERROR ❌️ requires 2 classes, not 12
+[34m[1mtest:[0m None...
+                   all          1          1
+Speed: 1.0ms preprocess, 4.7ms inference, 0.0ms loss, 0.0ms postprocess per image
+Results saved to [1mruns/classify/val[0m
+💡 Learn more at https://docs.ultralytics.com/modes/val
+
+[34m[1mval: [0mScanning /home/datpham/datpham/ACNE11-Classification/datasets/val... 235 images, 0 corrupt: 100%|██████████| 235/235 [00:00<?, ?it/s]
+[34m[1mval: [0mScanning /home/datpham/datpham/ACNE11-Classification/datasets/val... 235 images, 0 corrupt: 100%|██████████| 235/235 [00:00<?, ?it/s]
+
+               classes   top1_acc   top5_acc:   0%|          | 0/15 [00:00<?, ?it/s]
+               classes   top1_acc   top5_acc:   7%|▋         | 1/15 [00:00<00:11,  1.17it/s]
+               classes   top1_acc   top5_acc:  13%|█▎        | 2/15 [00:00<00:05,  2.35it/s]
+               classes   top1_acc   top5_acc:  20%|██        | 3/15 [00:01<00:06,  1.82it/s]
+               classes   top1_acc   top5_acc:  27%|██▋       | 4/15 [00:01<00:04,  2.50it/s]
+               classes   top1_acc   top5_acc:  40%|████      | 6/15 [00:01<00:02,  4.42it/s]
+               classes   top1_acc   top5_acc:  53%|█████▎    | 8/15 [00:02<00:01,  6.52it/s]
+               classes   top1_acc   top5_acc:  67%|██████▋   | 10/15 [00:02<00:00,  7.06it/s]
+               classes   top1_acc   top5_acc:  80%|████████  | 12/15 [00:02<00:00,  7.71it/s]
+               classes   top1_acc   top5_acc:  93%|█████████▎| 14/15 [00:02<00:00,  8.15it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:02<00:00,  7.56it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:02<00:00,  5.07it/s]

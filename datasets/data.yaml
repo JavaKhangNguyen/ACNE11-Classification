@@ -1,0 +1,19 @@
+# data.yaml
+train: /home/datpham/datpham/ACNE11-Classification/datasets/train
+val: /home/datpham/datpham/ACNE11-Classification/datasets/val
+
+nc: 12  # Số lượng lớp
+
+names:
+  0: acne_conglobata
+  1: blackhead
+  2: crystalline_acne
+  3: cystic_acne
+  4: flat_wart
+  5: folliculitis
+  6: keloid
+  7: milium
+  8: papular_acne
+  9: pustular_acne
+  10: syringoma
+  11: white_head
