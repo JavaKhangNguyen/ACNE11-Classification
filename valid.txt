@@ -8,15 +8,15 @@ YOLO11m-cls summary (fused): 138 layers, 10,344,194 parameters, 0 gradients, 39.
 [34m[1mval: [0mScanning /home/datpham/datpham/ACNE11-Classification/datasets/val... 235 images, 0 corrupt: 100%|██████████| 235/235 [00:00<?, ?it/s]
 
                classes   top1_acc   top5_acc:   0%|          | 0/15 [00:00<?, ?it/s]
-               classes   top1_acc   top5_acc:   7%|▋         | 1/15 [00:00<00:12,  1.08it/s]
-               classes   top1_acc   top5_acc:  13%|█▎        | 2/15 [00:01<00:10,  1.26it/s]
-               classes   top1_acc   top5_acc:  20%|██        | 3/15 [00:01<00:06,  1.96it/s]
-               classes   top1_acc   top5_acc:  27%|██▋       | 4/15 [00:02<00:04,  2.37it/s]
-               classes   top1_acc   top5_acc:  47%|████▋     | 7/15 [00:02<00:01,  5.28it/s]
-               classes   top1_acc   top5_acc:  67%|██████▋   | 10/15 [00:02<00:00,  8.13it/s]
-               classes   top1_acc   top5_acc:  80%|████████  | 12/15 [00:02<00:00,  8.59it/s]
-               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:02<00:00,  9.52it/s]
-               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:02<00:00,  5.25it/s]
+               classes   top1_acc   top5_acc:   7%|▋         | 1/15 [00:00<00:13,  1.04it/s]
+               classes   top1_acc   top5_acc:  13%|█▎        | 2/15 [00:01<00:06,  2.14it/s]
+               classes   top1_acc   top5_acc:  20%|██        | 3/15 [00:01<00:05,  2.04it/s]
+               classes   top1_acc   top5_acc:  27%|██▋       | 4/15 [00:01<00:03,  2.77it/s]
+               classes   top1_acc   top5_acc:  47%|████▋     | 7/15 [00:01<00:01,  6.16it/s]
+               classes   top1_acc   top5_acc:  67%|██████▋   | 10/15 [00:02<00:00,  9.41it/s]
+               classes   top1_acc   top5_acc:  87%|████████▋ | 13/15 [00:02<00:00, 12.39it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:02<00:00, 13.24it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:02<00:00,  6.57it/s]
 Traceback (most recent call last):
   File "/home/datpham/.conda/envs/plant/bin/yolo", line 8, in <module>
     sys.exit(entrypoint())
