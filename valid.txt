@@ -8,16 +8,15 @@ YOLO11m-cls summary (fused): 138 layers, 10,344,194 parameters, 0 gradients, 39.
 [34m[1mval: [0mScanning /home/datpham/datpham/ACNE11-Classification/datasets/val... 235 images, 0 corrupt: 100%|██████████| 235/235 [00:00<?, ?it/s]
 
                classes   top1_acc   top5_acc:   0%|          | 0/15 [00:00<?, ?it/s]
-               classes   top1_acc   top5_acc:   7%|▋         | 1/15 [00:01<00:21,  1.53s/it]
-               classes   top1_acc   top5_acc:  13%|█▎        | 2/15 [00:02<00:12,  1.01it/s]
-               classes   top1_acc   top5_acc:  20%|██        | 3/15 [00:02<00:07,  1.54it/s]
-               classes   top1_acc   top5_acc:  27%|██▋       | 4/15 [00:02<00:05,  1.91it/s]
-               classes   top1_acc   top5_acc:  40%|████      | 6/15 [00:02<00:02,  3.65it/s]
-               classes   top1_acc   top5_acc:  53%|█████▎    | 8/15 [00:02<00:01,  5.53it/s]
-               classes   top1_acc   top5_acc:  67%|██████▋   | 10/15 [00:03<00:00,  6.71it/s]
-               classes   top1_acc   top5_acc:  80%|████████  | 12/15 [00:03<00:00,  7.97it/s]
-               classes   top1_acc   top5_acc:  93%|█████████▎| 14/15 [00:03<00:00,  9.57it/s]
-               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:03<00:00,  4.30it/s]
+               classes   top1_acc   top5_acc:   7%|▋         | 1/15 [00:00<00:13,  1.04it/s]
+               classes   top1_acc   top5_acc:  13%|█▎        | 2/15 [00:01<00:07,  1.65it/s]
+               classes   top1_acc   top5_acc:  20%|██        | 3/15 [00:02<00:08,  1.43it/s]
+               classes   top1_acc   top5_acc:  27%|██▋       | 4/15 [00:02<00:05,  1.94it/s]
+               classes   top1_acc   top5_acc:  47%|████▋     | 7/15 [00:02<00:01,  4.56it/s]
+               classes   top1_acc   top5_acc:  67%|██████▋   | 10/15 [00:02<00:00,  7.42it/s]
+               classes   top1_acc   top5_acc:  80%|████████  | 12/15 [00:02<00:00,  7.59it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:03<00:00, 10.10it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 15/15 [00:03<00:00,  4.97it/s]
 Traceback (most recent call last):
   File "/home/datpham/.conda/envs/plant/bin/yolo", line 8, in <module>
     sys.exit(entrypoint())
@@ -41,15 +40,3 @@ IndexError: index 8 is out of bounds for axis 0 with size 2
 Exception in thread Thread-2 (_pin_memory_loop):
 Traceback (most recent call last):
   File "/home/datpham/.conda/envs/plant/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
-    self.run()
-  File "/home/datpham/.conda/envs/plant/lib/python3.11/threading.py", line 982, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/datpham/.conda/envs/plant/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 59, in _pin_memory_loop
-    do_one_step()
-  File "/home/datpham/.conda/envs/plant/lib/python3.11/site-packages/torch/utils/data/_utils/pin_memory.py", line 35, in do_one_step
-    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/datpham/.conda/envs/plant/lib/python3.11/multiprocessing/queues.py", line 122, in get
-    return _ForkingPickler.loads(res)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/datpham/.conda/envs/plant/lib/python3.11/site-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
