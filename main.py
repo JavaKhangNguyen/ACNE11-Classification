@@ -5,7 +5,7 @@ import ultralytics
 ultralytics.checks()
 
 """## Train model"""
-subprocess.run(['yolo','task=classify', 'mode=train', 'model=weight/yolov8s-cls.pt','data=/home/datpham/datpham/ACNE11-Classification/datasets','epochs=100', 'batch=32', 'imgsz=800', 'save=True', 'save_period=10', 'patience=0'])
+subprocess.run(['yolo','task=classify', 'mode=train', 'model=weight/yolov8s-cls.pt','data=/home/datpham/datpham/ACNE11-Classification/datasets','epochs=200', 'batch=16', 'imgsz=800', 'save=True', 'save_period=10', 'patience=0'])
 
 """## Validating model"""
 with open('valid.txt', 'w') as f:
